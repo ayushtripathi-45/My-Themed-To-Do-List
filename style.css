@@ -1,0 +1,193 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 95vh;
+    padding: 10px;
+}
+.todo{
+    width: 100%;
+    max-width: 540px;
+    background: rgba(0, 26, 112, 0.74);
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+    transition: all 0.3s ease;
+}
+.todo:hover{
+    box-shadow: 0 0 35px rgba(255, 255, 255, 0.4);
+    transform: translateY(-4px);  
+}
+.todo h2{
+    color:rgb(247, 13, 5);
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.todo h2 img{
+    width: 30px;
+    margin-left: 10px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #8d0081;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    transition: all 0.3s ease;
+}
+.row:hover {
+    background: #ffffff40;
+    box-shadow: 0 0 10px rgba(255,255,255,0.4);
+    transform: translateY(-2px);
+}
+input{
+    flex: 1;
+    border:none;
+    outline-style: none;
+    background: transparent;
+    padding: 10px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#input-box::placeholder {
+    color: rgb(8, 8, 8);
+    font-family: 'Courier New', Courier, monospace;
+}
+button{
+    border: none;
+    outline: none;
+    padding: 15px 50px;
+    background: #ff5945;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(3, 238, 255, 0.5);
+}
+button:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 0 20px rgba(250, 0, 0, 1.0);
+}
+button:active{
+    transform: scale(0.93);
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+}
+ul li{
+    list-style-type: none;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(images/unchecked.png);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+}
+ul li.checked{
+    color: #575757;
+    text-decoration: line-through;
+}
+ul li.checked::before{
+    background-image: url(images/checked.png);
+}
+ul li span{
+    position:absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #ff0000;
+    line-height: 40px;
+    text-align: center; 
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 5px rgba(0, 225, 255, 0.9);
+}
+ul li span:hover{
+    background: #edeef0;
+     transform: scale(1.15);       
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    
+}
+ul li span:active{
+    transform: scale(0.85);
+    background: #d5d6d8;
+    box-shadow: 0 0 5px rgba(0,0,0,0.15);
+    
+}
+.default {
+    --bg: linear-gradient(145deg, #035c77, #8d0081);
+    --todo-bg: rgba(0, 26, 112, 0.74);
+    --text-color: white;
+}
+.light {
+    --bg: #ffffff;
+    --todo-bg: #f1f1f1;
+    --text-color: black;
+}
+.light .row {
+    background: #868686; 
+    
+}
+.light .row:hover {
+    background: #ffffff;
+    box-shadow: 0 0 12px black;     
+    transform: translateY(-2px);    
+}
+.light #input-box {
+    color: black;
+}
+.light #input-box::placeholder {
+    color: black;
+}
+.dark {
+    --bg: #000000;
+    --todo-bg: #1a1a1a;
+    --text-color: #e0e0e0;
+}
+.container {
+    background: var(--bg);
+}
+.todo {
+    background: var(--todo-bg);
+}
+ul li {
+    color: var(--text-color);
+}
+#defaultBtn, #lightBtn, #darkBtn {
+    padding: 6px 12px;
+    margin-bottom: 10px;
+    margin-right: 6px;
+    border: 1px solid rgba(255,255,255,0.5); 
+    border-radius: 6px;
+    cursor: pointer;
+     background: transparent;                            
+    color: var(--text-color);                           
+    transition: 0.3s;
+}
+#defaultBtn:hover, 
+#lightBtn:hover, 
+#darkBtn:hover {
+    transform: scale(1.08);
+    border-color: white;
+}
