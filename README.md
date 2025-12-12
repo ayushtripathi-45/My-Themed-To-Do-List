@@ -4,19 +4,12 @@
 
 ---
 
-## 📑 Table of Contents
-
-* 📘 [Project Overview](#project-overview)
-* 📂 [Project Structure](#project-structure)
-* 🧰 [Tech Stack](#tech-stack)
-* ✨ [Features](#features)
-* ⚙️ [Usage](#usage)
-* 🎨 [Themes](#themes)
 * 🖼️ [Preview](#preview)
+* 🖼️ [Working Demo](#working-demo)
 
 ---
 
-## 🔖 Project Overview
+## 🔖 Overview
 
 This repository contains **Project 3 — a themed to‑do list** component built with HTML, CSS, and JavaScript. The UI emphasizes:
 
@@ -83,17 +76,27 @@ My themed-todo-List/
 
 ## 📸Preview
 
-Place your theme screenshots in `/screenshots` and reference them here in Markdown, for example:
+* **Dark Theme**
 
-```md
-![Dark theme](/screenshots/screenshot-dark.png)
-![Default theme](/screenshots/screenshot-blue.png)
-![Light theme](/screenshots/screenshot-light.png)
-```
+<img width="1301" height="618" alt="Dark Theme" src="https://github.com/user-attachments/assets/1b2a19fe-df86-4a53-a1c8-389068993909" />
+
+* **Light Theme**
+
+<img width="1297" height="616" alt="Light Theme" src="https://github.com/user-attachments/assets/0dd852ba-ff5c-4747-9f26-85b0884646da" />
+
+* **Default Theme**
+<img width="1287" height="612" alt="Default Theme" src="https://github.com/user-attachments/assets/a0b0ea71-7dd7-4d35-99b7-5b0ed0f8f926" />
 
 ---
 
-# ⭐ Support This Project
+## 📸Working Demo
+
+
+https://github.com/user-attachments/assets/067eeb55-120d-4e83-82ef-56c66ca1d1db
+
+
+
+# ⭐ Support 
 
 If you like **My Themed To‑Do List** or find it useful, you can support the project 
 * **Star the Repository** on GitHub — this helps the project grow and reach more developers.
@@ -105,7 +108,8 @@ Your support encourages further updates and new features.
 # 👤 Author
 
 **Name:** Ayush Tripathi
-**Project:** Themed To‑Do List 
+
+**Project:** My To‑Do List 
 
 ## 🔗 Connect
 
