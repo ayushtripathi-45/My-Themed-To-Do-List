@@ -1,4 +1,4 @@
-# My Themed To‑Do List 
+# 📝 To‑Do List 
 
 > A small, polished, themeable to‑do list UI focused on smooth hover interactions, shadow accents, and three selectable themes (Default / Day / Night). Designed for web and easy integration into any front-end project.
 
@@ -9,7 +9,7 @@
 
 ---
 
-## 🔖 Overview
+## 🔖 Overview :
 
 This repository contains **Project 3 — a themed to‑do list** component built with HTML, CSS, and JavaScript. The UI emphasizes:
 
@@ -20,7 +20,7 @@ This repository contains **Project 3 — a themed to‑do list** component built
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Structure :
 
 ```
 My themed-todo-List/
@@ -33,7 +33,7 @@ My themed-todo-List/
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack :
 
 * **HTML5** – Structure of the to‑do application.
 * **CSS3** – Custom themes, hover effects, shadows, animations.
@@ -43,7 +43,7 @@ My themed-todo-List/
 
 ---
 
-## 🚀 Features
+## 🚀 Features :
 
 * Theme switcher (Default / 🌞 / 🌙). Themes change background, card color, and shadow/glow accents.
 
@@ -57,7 +57,7 @@ My themed-todo-List/
 
 ---
 
-## ⚙️ USAGE
+## ⚙️ Usage :
 
 * Use the theme controls at the top of the card to switch between themes.
 * Click the input to type a new task, then press **Add** or hit **Enter** to add the task.
@@ -66,7 +66,7 @@ My themed-todo-List/
 
 ---
 
-## 🎨 Themes 
+## 🎨 Themes :
 
 * **Default**: balanced, slightly saturated blue card with teal glow accents.
 * **Day / Light**: light card, faint outer shadow, subtle aqua focus on buttons.
@@ -74,7 +74,7 @@ My themed-todo-List/
 
 ---
 
-## 📸Preview
+## 📸Preview :
 
 * **Dark Theme**
 
@@ -89,14 +89,14 @@ My themed-todo-List/
 
 ---
 
-## 📸Working Demo
+## 📸Working Demo :
 
 
 https://github.com/user-attachments/assets/067eeb55-120d-4e83-82ef-56c66ca1d1db
 
 
 
-# ⭐ Support 
+# ⭐ Support :
 
 If you like **My Themed To‑Do List** or find it useful, you can support the project 
 * **Star the Repository** on GitHub — this helps the project grow and reach more developers.
@@ -107,13 +107,14 @@ Your support encourages further updates and new features.
 
 # 👤 Author
 
-**Name:** Ayush Tripathi
+### Ayush Tripathi 👨‍🎓
 
-**Project:** My To‑Do List 
+Developer of To-Do List.
 
-## 🔗 Connect
+🔗 Profiles :
 
-* **GitHub:** [https://github.com/ayushtripathi-45](https://github.com/ayushtripathi-45)
-* **Email:** [ayushtripathi9821@gmail.com.com](ayushtripathi9821@gmail.com.com) 
-* **LinkedIn** [https://www.linkedin.com/in/ayush-tripathi45/](https://www.linkedin.com/in/ayush-tripathi45/)
+ - Email: ayushtripathi9821@gmail.com
+
+ - LinkedIn: www.linkedin.com/in/ayush-tripathi45
+ 
 ---
