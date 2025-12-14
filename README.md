@@ -4,11 +4,6 @@
 
 ---
 
-* 🖼️ [Preview](#preview)
-* 🖼️ [Working Demo](#working-demo)
-
----
-
 ## 🔖 Overview :
 
 This repository contains **Project 3 — a themed to‑do list** component built with HTML, CSS, and JavaScript. The UI emphasizes:
@@ -17,6 +12,10 @@ This repository contains **Project 3 — a themed to‑do list** component built
 * Thoughtful hover effects on buttons, inputs, and list items.
 * Soft/neumorphic shadows and glow for an attractive card-based layout.
 * Responsive layout that looks good on desktop and tablet widths.
+
+---
+
+🔗 **Live Demo**  [To-Do-Task-List](https://my-themed-to-do-task.netlify.app/)
 
 ---
 
